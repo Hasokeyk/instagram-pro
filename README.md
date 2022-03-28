@@ -34,7 +34,7 @@
 
 # Buy License
 
-To obtain a monthly or annual license instagram-pro@hayatikodla.net please contact with.
+To obtain a monthly or annual license <a href="mailto:instagram-pro@hayatikodla.net">instagram-pro@hayatikodla.net</a> please contact with.
 
 ## About Project
 
@@ -492,3 +492,7 @@ Array
 ```
 
 </details>
+
+# Examples
+
+For all sample codes, please visit the [Examples](https://github.com/Hasokeyk/instagram-pro/blob/main/examples/) link.

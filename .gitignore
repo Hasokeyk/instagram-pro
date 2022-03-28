@@ -4,3 +4,4 @@ src/cache/*
 src/Instagram/
 index.php
 register.php
+/vendor2
