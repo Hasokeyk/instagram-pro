@@ -1,4 +1,10 @@
 [![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Hasan Yüksetepe][linkedin-shield]][linkedin-url]
+[![@hasokeyk][instagram-shield]][instagram-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -490,3 +496,18 @@ Array
 # Examples
 
 For all sample codes, please visit the [Examples](https://github.com/Hasokeyk/instagram-pro/blob/main/examples/) link.
+
+[contributors-shield]: https://img.shields.io/github/contributors/hasokeyk/instagram.svg?style=for-the-badge
+[contributors-url]: https://github.com/hasokeyk/instagram-pro/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hasokeyk/instagram.svg?style=for-the-badge
+[forks-url]: https://github.com/hasokeyk/instagram/network/members
+[stars-shield]: https://img.shields.io/github/stars/hasokeyk/instagram.svg?style=for-the-badge
+[stars-url]: https://github.com/hasokeyk/instagram-pro/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hasokeyk/instagram.svg?style=for-the-badge
+[issues-url]: https://github.com/hasokeyk/instagram-pro/issues
+[license-shield]: https://img.shields.io/github/license/hasokeyk/instagram.svg?style=for-the-badge
+[license-url]: https://github.com/Hasokeyk/instagram-pro/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/hasan-yuksektepe/
+[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=for-the-badge&logo=Instagram&colorB=555
+[instagram-url]: https://instagram.com/hasokeyk/
