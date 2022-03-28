@@ -3,8 +3,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![Hasan Yüksetepe][linkedin-shield]][linkedin-url]
-[![@hasokeyk][instagram-shield]][instagram-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -30,6 +28,8 @@
 [![Linkedin Badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasan-yuksektepe/)
 [![Twitter Badge](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Hasokeyk)
 [![Github Badge](https://img.shields.io/badge/github-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alihandemirdas)
+[![Hasan Yüksetepe][linkedin-shield]][linkedin-url]
+[![@hasokeyk][instagram-shield]][instagram-url]
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=hasokeyk.instagram_pro&left_text=Download)
 
 # Buy License
