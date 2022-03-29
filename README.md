@@ -34,11 +34,16 @@
 
 # Buy License
 
-To obtain a monthly or annual license <a href="mailto:instagram-pro@hayatikodla.net">instagram-pro@hayatikodla.net</a> please contact with.
+To obtain a monthly or annual
+license <a href="mailto:instagram-pro@hayatikodla.net">
+instagram-pro@hayatikodla.net</a> please contact with.
 
 ## About Project
 
-You can use all the features in instagram with this php library. The person who wrote the software is not responsible for the operations to be performed with this software. A person who uses the Software for malicious purposes will be disabled indefinitely.
+You can use all the features in instagram with this php library. The person who
+wrote the software is not responsible for the operations to be performed with
+this software. A person who uses the Software for malicious purposes will be
+disabled indefinitely.
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -80,7 +85,8 @@ Give permission to the following files and folders with chmod 777.
 
 ## Get All Function list
 
-You can use the codes in the function list after logging in or without logging in.
+You can use the codes in the function list after logging in or without logging
+in.
 
 <details>
 <summary>Code</summary>
@@ -412,7 +418,7 @@ Array
             echo 'Login Success';
 
             $instagram->user->change_my_password('NEWPASSWORD');
-            $instagram->user->edit_my_profile('FULLNAME','WEBSITE','PHONENUMBER','BIODESC','EMAIL');
+            $instagram->user->edit_my_profile('NEW_USERNAME','FULLNAME','WEBSITE','PHONENUMBER','BIODESC','EMAIL');
 
             $code = $instagram->user->get_new_backup_codes();
             print_r($code);
@@ -495,19 +501,34 @@ Array
 
 # Examples
 
-For all sample codes, please visit the [Examples](https://github.com/Hasokeyk/instagram-pro/blob/main/examples/) link.
+For all sample codes, please visit
+the [Examples](https://github.com/Hasokeyk/instagram-pro/blob/main/examples/)
+link.
 
 [contributors-shield]: https://img.shields.io/github/contributors/hasokeyk/instagram-pro.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/hasokeyk/instagram-pro/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/hasokeyk/instagram-pro.svg?style=for-the-badge
+
 [forks-url]: https://github.com/hasokeyk/instagram/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/hasokeyk/instagram-pro.svg?style=for-the-badge
+
 [stars-url]: https://github.com/hasokeyk/instagram-pro/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/hasokeyk/instagram-pro.svg?style=for-the-badge
+
 [issues-url]: https://github.com/hasokeyk/instagram-pro/issues
+
 [license-shield]: https://img.shields.io/github/license/hasokeyk/instagram-pro.svg?style=for-the-badge
+
 [license-url]: https://github.com/Hasokeyk/instagram-pro/blob/main/LICENSE
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
 [linkedin-url]: https://www.linkedin.com/in/hasan-yuksektepe/
+
 [instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=for-the-badge&logo=Instagram&colorB=555
+
 [instagram-url]: https://instagram.com/hasokeyk/
