@@ -1,8 +1,6 @@
 <?php
     namespace Hasokeyk\InstagramPro;
 
-    define('PHPkoru__FILE__', __FILE__);
-    define('PHPkoru__DIR__', __DIR__);
     eval(base64_decode('JGZnZV9lYmcxMyA9IHN0cl9yb3QxMyhiYXNlNjRfZGVjb2RlKCdabWRsWDJWaVp6RXonKSk7'));
     eval(base64_decode('JG9uZnI2NF9xcnBicXIgPSBzdHJfcm90MTMoYmFzZTY0X2RlY29kZSgnYjI1bWNqWTBYM0Z5Y0dKeGNnPT0nKSk7'));
 
