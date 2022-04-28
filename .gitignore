@@ -1,6 +1,6 @@
 .idea/
 vendor/
-src/cache/*
+src/cache/*/
 src/Instagram/
 index.php
 register.php
