@@ -241,6 +241,37 @@ Array
 
 </details>
 
+## Use Proxy
+
+<details>
+<summary>Code</summary>
+
+## YOU CAN JUST USE ONE PROXY
+
+```php
+<?php
+
+    use Hasokeyk\InstagramPro\Instagram;
+
+    set_time_limit(0);
+
+    require "vendor/autoload.php";
+
+    $username = 'USERNAME';
+    $password = 'PASSWORD';
+    $license  = 'LICENSE';
+
+    $instagram = new Instagram($license, $username, $password);
+
+    $instagram->request->proxy = 'http://username:password@111.222.333.444:8080';
+    $instagram->request->proxy = 'https://username:password@111.222.333.444:8080';
+    $instagram->request->proxy = 'socks4://username:password@111.222.333.444:8080';
+    $instagram->request->proxy = 'socks5://username:password@111.222.333.444:8080';
+
+```
+
+</details>
+
 ## Two Factor Login
 
 <details>

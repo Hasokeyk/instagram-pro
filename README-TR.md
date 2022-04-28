@@ -82,7 +82,7 @@ Aşağıdaki dosya ve klasörlere chmod 777 ile izin verin.
 Giriş yaptıktan sonra veya giriş yapmadan fonksiyon listesindeki kodları kullanabilirsiniz.
 
 <details>
-<summary>Code</summary>
+<summary>Örnek Kod</summary>
 
 ```php
 <?php
@@ -106,7 +106,7 @@ Giriş yaptıktan sonra veya giriş yapmadan fonksiyon listesindeki kodları kul
 </details>
 
 <details>
-<summary>Output</summary>
+<summary>Örnek Çıktı</summary>
 
 ```output
 Array
@@ -234,10 +234,41 @@ Array
 
 </details>
 
-## Two Factor Login
+## Proxy Kullanımı
 
 <details>
-<summary>Code</summary>
+<summary>Örnek Kod</summary>
+
+## SADECE BİR PROXY KULLANABİLİRSİNİZ
+
+```php
+<?php
+
+    use Hasokeyk\InstagramPro\Instagram;
+
+    set_time_limit(0);
+
+    require "vendor/autoload.php";
+
+    $username = 'USERNAME';
+    $password = 'PASSWORD';
+    $license  = 'LICENSE';
+
+    $instagram = new Instagram($license, $username, $password);
+
+    $instagram->request->proxy = 'http://username:password@111.222.333.444:8080';
+    $instagram->request->proxy = 'https://username:password@111.222.333.444:8080';
+    $instagram->request->proxy = 'socks4://username:password@111.222.333.444:8080';
+    $instagram->request->proxy = 'socks5://username:password@111.222.333.444:8080';
+
+```
+
+</details>
+
+## iki Adımlı Giriş
+
+<details>
+<summary>Örnek Kod</summary>
 
 ```php
 <?php
@@ -298,7 +329,7 @@ Array
 ## İki adımlı doğrulama kapatma/açma
 
 <details>
-<summary>Code</summary>
+<summary>Örnek Kod</summary>
 
 ```php
 <?php
@@ -365,7 +396,7 @@ Array
 ## Şifre Değiştirme & Kurtarma Kodu & 2 adımlı doğrulama uygulamaları & Telefon & Email & Bio & Website Değiştirme
 
 <details>
-<summary>Code</summary>
+<summary>Örnek Kod</summary>
 
 ```php
 <?php
@@ -433,7 +464,7 @@ Array
 ## Önceki giriş kayıtları
 
 <details>
-<summary>Code</summary>
+<summary>Örnek Kod</summary>
 
 ```php
 <?php
@@ -494,7 +525,7 @@ Array
 
 # Örnekler
 
-Tüm kodlara bu linkten ulaşabilirsiniz [Examples](https://github.com/Hasokeyk/instagram-pro/blob/main/examples/) link.
+Tüm kodlara bu linkten ulaşabilirsiniz -> [Examples](https://github.com/Hasokeyk/instagram-pro/blob/main/examples/)
 
 [contributors-shield]: https://img.shields.io/github/contributors/hasokeyk/instagram-pro.svg?style=for-the-badge
 [contributors-url]: https://github.com/hasokeyk/instagram-pro/graphs/contributors
