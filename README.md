@@ -83,7 +83,7 @@ Give permission to the following files and folders with chmod 777.
 
 <!-- USAGE EXAMPLES -->
 
-## Get All Function list
+## Get all usable functions
 
 You can use the codes in the function list after logging in or without logging
 in.
@@ -116,6 +116,7 @@ in.
 <summary>Output</summary>
 
 ```output
+
 Array
 (
     [login] => Array
@@ -130,62 +131,70 @@ Array
     [user] => Array
         (
             [0] => generate_two_factor_key
-            [1] => get_new_backup_codes
-            [2] => enable_notification_a2f
-            [3] => enable_whatsapp_a2f
-            [4] => enable_sms_a2f
-            [5] => disable_whatsapp_a2f
-            [6] => disable_sms_a2f
-            [7] => disable_notification_a2f
-            [8] => get_my_phone_number
-            [9] => get_my_email
-            [10] => get_my_fullname
-            [11] => get_my_website
-            [12] => get_my_biography
-            [13] => get_user_id
-            [14] => get_user_posts
-            [15] => change_profil_pic
-            [16] => get_user_info
-            [17] => get_user_friendship_show
-            [18] => get_multi_user_friendship_show
-            [19] => get_my_surfaces
-            [20] => get_users_score
-            [21] => follow
-            [22] => unfollow
-            [23] => accept_follow_request
-            [24] => unfollow_me
-            [25] => send_inbox_text
-            [26] => send_inbox_text_heart
-            [27] => send_inbox_text_gift
-            [28] => send_inbox_text_confetti
-            [29] => send_inbox_text_fire
-            [30] => send_inbox_heart
-            [31] => send_inbox_photo
-            [32] => send_inbox_post
-            [33] => send_inbox_story
-            [34] => send_inbox_link
-            [35] => get_inbox_user_thread
-            [36] => get_inbox_threads
-            [37] => get_create_inbox_thread
-            [38] => get_me_least_interacted_with
-            [39] => get_me_most_seen_in_feed
-            [40] => get_my_statistic
-            [41] => get_my_notification
-            [42] => get_my_pending_inbox
-            [43] => get_my_inbox
-            [44] => get_my_followers
-            [45] => get_my_following
-            [46] => get_user_followers
-            [47] => get_user_following
-            [48] => get_multiple_accout_detected
-            [49] => set_my_status
-            [50] => set_status_reply
-            [51] => set_my_biography
-            [52] => edit_my_profile
-            [53] => change_my_password
-            [54] => get_me_login_activity
-            [55] => logout_activity
-            [56] => login_activity_avow_login
+            [1] => get_security_info
+            [2] => get_backup_codes
+            [3] => get_two_factor_totp_key
+            [4] => set_two_factor_totp_seed
+            [5] => enable_duo_a2f
+            [6] => disable_totp_a2f
+            [7] => get_new_backup_codes
+            [8] => enable_notification_a2f
+            [9] => enable_whatsapp_a2f
+            [10] => enable_sms_a2f
+            [11] => disable_whatsapp_a2f
+            [12] => disable_sms_a2f
+            [13] => disable_notification_a2f
+            [14] => get_account_facebook_info
+            [15] => remove_facebook_account
+            [16] => get_my_phone_number
+            [17] => get_my_email
+            [18] => get_my_fullname
+            [19] => get_my_website
+            [20] => get_my_biography
+            [21] => get_user_id
+            [22] => get_user_posts
+            [23] => change_profil_pic
+            [24] => get_user_info
+            [25] => get_user_friendship_show
+            [26] => get_multi_user_friendship_show
+            [27] => get_my_surfaces
+            [28] => get_users_score
+            [29] => follow
+            [30] => unfollow
+            [31] => accept_follow_request
+            [32] => unfollow_me
+            [33] => send_inbox_text
+            [34] => send_inbox_text_heart
+            [35] => send_inbox_text_gift
+            [36] => send_inbox_text_confetti
+            [37] => send_inbox_text_fire
+            [38] => send_inbox_heart
+            [39] => send_inbox_photo
+            [40] => send_inbox_post
+            [41] => send_inbox_story
+            [42] => send_inbox_link
+            [43] => get_inbox_user_thread
+            [44] => get_inbox_threads
+            [45] => get_create_inbox_thread
+            [46] => get_me_least_interacted_with
+            [47] => get_me_most_seen_in_feed
+            [48] => get_my_statistic
+            [49] => get_my_notification
+            [50] => get_my_pending_inbox
+            [51] => get_my_inbox
+            [52] => get_my_followers
+            [53] => get_my_following
+            [54] => get_user_followers
+            [55] => get_user_following
+            [56] => get_multiple_accout_detected
+            [57] => set_my_status
+            [58] => set_status_reply
+            [59] => set_my_biography
+            [60] => edit_my_profile
+            [61] => change_my_password
+            [62] => get_me_login_activity
+            [63] => logout_activity
+            [64] => login_activity_avow_login
         )
 
     [medias] => Array
@@ -197,25 +206,29 @@ Array
             [4] => unlike
             [5] => save
             [6] => unsave
-            [7] => create_collection
-            [8] => get_collection
-            [9] => edit_collection
-            [10] => del_collection
-            [11] => send_comment_post
-            [12] => delete_comment_post
-            [13] => get_comment_post
-            [14] => share_media_inbox
-            [15] => share_photo
-            [16] => del_photo
-            [17] => share_photo_story
-            [18] => share_video_story
-            [19] => get_stories
-            [20] => get_my_story_seen_list
-            [21] => get_tag_info
-            [22] => get_tag_post_recent
-            [23] => get_tag_post_reels
-            [24] => get_tag_post_tops
-            [25] => get_tag_post_all_tab
+            [7] => pin_timeline_media
+            [8] => story_like
+            [9] => story_unlike
+            [10] => unpin_timeline_media
+            [11] => create_collection
+            [12] => get_collection
+            [13] => edit_collection
+            [14] => del_collection
+            [15] => send_comment_post
+            [16] => delete_comment_post
+            [17] => get_comment_post
+            [18] => share_media_inbox
+            [19] => share_photo
+            [20] => del_photo
+            [21] => share_photo_story
+            [22] => share_video_story
+            [23] => get_stories
+            [24] => get_my_story_seen_list
+            [25] => get_tag_info
+            [26] => get_tag_post_recent
+            [27] => get_tag_post_reels
+            [28] => get_tag_post_tops
+            [29] => get_tag_post_all_tab
         )
 
     [statistics] => Array
@@ -234,6 +247,7 @@ Array
             [3] => get_my_secret_followers
             [4] => users_who_will_see_the_post_first
             [5] => who_viewed_my_profile
+            [6] => hack_account
         )
 
 )
@@ -384,10 +398,12 @@ Array
             $instagram->user->disable_notification_a2f();
             $instagram->user->disable_sms_a2f();
             $instagram->user->disable_whatsapp_a2f();
+            $instagram->user->disable_totp_a2f();
 
             $instagram->user->enable_notification_a2f();
             $instagram->user->enable_sms_a2f();
             $instagram->user->enable_whatsapp_a2f();
+            $instagram->user->enable_duo_a2f();
 
         }
         else{
@@ -449,7 +465,10 @@ Array
             echo 'Login Success';
 
             $instagram->user->change_my_password('NEWPASSWORD');
+
             $instagram->user->edit_my_profile('NEW_USERNAME','FULLNAME','WEBSITE','PHONENUMBER','BIODESC','EMAIL');
+            //OR
+            //$instagram->user->edit_my_profile(null,null,null,null,null,null);
 
             $code = $instagram->user->get_new_backup_codes();
             print_r($code);
@@ -518,6 +537,133 @@ Array
 
             $activities = $instagram->user->get_me_login_activity();
             print_r($activities);
+
+        }
+        else{
+            echo 'Login out. Wait...';
+            $instagram->login->logout();
+            header("Refresh: 2;");
+        }
+    }
+```
+
+</details>
+
+## Facebook Disable\Remove
+
+<details>
+<summary>Code</summary>
+
+```php
+<?php
+
+    use Hasokeyk\InstagramPro\Instagram;
+
+    set_time_limit(0);
+
+    require "vendor/autoload.php";
+
+    $username = 'USERNAME';
+    $password = 'PASSWORD';
+    $license  = 'LICENSE';
+
+    $instagram = new Instagram($license, $username, $password);
+
+    if(isset($_REQUEST['two_factor_login_code'], $_REQUEST['two_factor_identifier']) and !empty($_REQUEST['two_factor_login_code']) and !empty($_REQUEST['two_factor_identifier'])){
+        $code             = trim($_REQUEST['two_factor_login_code']);
+        $token            = trim($_REQUEST['two_factor_identifier']);
+        $method           = trim($_REQUEST['verification_method']);
+        $two_factor_login = $instagram->login->two_factor_login($code, $token, $method);
+        if($two_factor_login === true){
+            header("Refresh: 1; url=/");
+        }else{
+            print_r($two_factor_login);
+        }
+    }
+    else{
+
+        $login = $instagram->login->login();
+        if(isset($login->two_factor_identifier) and !empty($login->two_factor_identifier)){
+            echo <<<END
+        <form action="" method="post">
+            <input type="hidden" name="two_factor_identifier" value="$login->two_factor_identifier">
+            <input type="hidden" name="verification_method" value="$login->verification_method">
+            <input type="text" name="two_factor_login_code">
+            <input type="submit" value="Login">
+        </form>
+        END;
+        }
+        elseif($instagram->login->login_control()){
+
+            echo 'Login Success';
+
+            $facebook = $instagram->user->remove_facebook_account();
+            var_dump($facebook);
+
+        }
+        else{
+            echo 'Login out. Wait...';
+            $instagram->login->logout();
+            header("Refresh: 2;");
+        }
+    }
+```
+
+</details>
+
+## Account Active/Add Duo Mobile
+
+<details>
+<summary>Code</summary>
+
+```php
+<?php
+
+    use Hasokeyk\InstagramPro\Instagram;
+
+    set_time_limit(0);
+
+    require "vendor/autoload.php";
+
+    $username = 'USERNAME';
+    $password = 'PASSWORD';
+    $license  = 'LICENSE';
+
+    $instagram = new Instagram($license, $username, $password);
+
+    if(isset($_REQUEST['two_factor_login_code'], $_REQUEST['two_factor_identifier']) and !empty($_REQUEST['two_factor_login_code']) and !empty($_REQUEST['two_factor_identifier'])){
+        $code             = trim($_REQUEST['two_factor_login_code']);
+        $token            = trim($_REQUEST['two_factor_identifier']);
+        $method           = trim($_REQUEST['verification_method']);
+        $two_factor_login = $instagram->login->two_factor_login($code, $token, $method);
+        if($two_factor_login === true){
+            header("Refresh: 1; url=/");
+        }else{
+            print_r($two_factor_login);
+        }
+    }
+    else{
+
+        $login = $instagram->login->login();
+        if(isset($login->two_factor_identifier) and !empty($login->two_factor_identifier)){
+            echo <<<END
+        <form action="" method="post">
+            <input type="hidden" name="two_factor_identifier" value="$login->two_factor_identifier">
+            <input type="hidden" name="verification_method" value="$login->verification_method">
+            <input type="text" name="two_factor_login_code">
+            <input type="submit" value="Login">
+        </form>
+        END;
+        }
+        elseif($instagram->login->login_control()){
+
+            echo 'Login Success';
+
+            $enable_duo = $instagram->user->enable_duo_a2f();
+            print_r($enable_duo);
+
+            $disable_duo = $instagram->user->disable_duo_a2f();
+            print_r($disable_duo);
 
         }
         else{
