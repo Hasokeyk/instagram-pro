@@ -23,7 +23,7 @@
   "license":"MIT",
   "minimum-stability":"stable",
   "require":{
-    "php": ">=7.4.0",
+    "php": ">=7.2",
     "duosecurity/duo_api_php":"^1.0.3",
     "guzzlehttp/guzzle":"^7.4.2",
     "ext-json":"*"
