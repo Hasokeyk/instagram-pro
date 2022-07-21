@@ -1,7 +1,5 @@
 <?php
 
-    namespace Hasokeyk\InstagramPro;
-
     interface InstagramLoginInterface{
 
         public function login();

@@ -1,7 +1,5 @@
 <?php
 
-    namespace Hasokeyk\InstagramPro;
-
     interface InstagramStatisticsInterface{
         public function get_user_insights();
 

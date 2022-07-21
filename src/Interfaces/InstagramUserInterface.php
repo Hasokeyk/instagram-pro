@@ -1,8 +1,7 @@
 <?php
 
-    namespace Hasokeyk\InstagramPro;
-
     interface InstagramUserInterface{
+
         public function generate_two_factor_key();
 
         public function get_security_info();

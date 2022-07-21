@@ -1,7 +1,5 @@
 <?php
 
-    namespace Hasokeyk\InstagramPro;
-
     interface InstagramSmartEventsInterface{
 
         public function get_fake_following_profile($username);

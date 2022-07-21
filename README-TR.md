@@ -87,7 +87,7 @@ Giriş yaptıktan sonra veya giriş yapmadan fonksiyon listesindeki kodları kul
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 
@@ -258,7 +258,7 @@ Array
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 
@@ -287,7 +287,7 @@ Array
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 
@@ -348,7 +348,7 @@ Array
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 
@@ -417,7 +417,7 @@ Array
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 
@@ -488,7 +488,7 @@ Array
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 
@@ -550,7 +550,7 @@ Array
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 
@@ -612,7 +612,7 @@ Array
 ```php
 <?php
 
-    use Hasokeyk\InstagramPro\Instagram;
+    use Hasokeyk\Interfaces\Instagram;
 
     set_time_limit(0);
 

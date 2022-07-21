@@ -1,7 +1,5 @@
 <?php
 
-    namespace Hasokeyk\InstagramPro;
-
     interface InstagramMediasInterface{
 
         public function get_post_likes($post_id);
