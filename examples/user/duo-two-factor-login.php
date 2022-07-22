@@ -1,6 +1,6 @@
 <?php
 
-    use Hasokeyk\Interfaces\Instagram;
+    use Hasokeyk\InstagramPro\Instagram;
 
     set_time_limit(0);
 
