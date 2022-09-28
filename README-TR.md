@@ -20,7 +20,7 @@
     ·
     <a href="https://github.com/hasokeyk/instagram-pro/issues">Feedback</a>
     <br>
-    <a href="[https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md](https://github.com/Hasokeyk/instagram-pro/blob/main/README.md)" style="font-size:24px">Click for English document</a>
+    <a href="https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md" style="font-size:24px">Click for English document</a>
 </p>
 
 # Hasan Yüksektepe
