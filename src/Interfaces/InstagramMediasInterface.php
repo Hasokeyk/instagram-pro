@@ -16,6 +16,10 @@
 
         public function unsave($post_id);
 
+        public function archive($post_id);
+
+        public function undo_archive($post_id);
+
         public function pin_timeline_media($post_id);
 
         public function story_like($post_id);

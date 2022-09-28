@@ -15,9 +15,6 @@
 
 <p align="center">
     With this PHP library, you can use all features of the instagram Mobile App
-    <br />
-    <a href="#">Demo</a>
-    ·
     <a href="https://github.com/hasokeyk/instagram-pro/issues">Feedback</a>
     <br>
     <a href="https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md" style="font-size:24px">Türkçe doküman için tıklayın</a>
@@ -35,8 +32,7 @@
 # Buy License
 
 To obtain a monthly or annual
-license <a href="mailto:instagram-pro@hayatikodla.net">
-instagram-pro@hayatikodla.net</a> please contact with.
+license <a href="https://t.me/hasokeyk"> https://t.me/hasokeyk </a> please contact with.
 
 ## About Project
 
@@ -44,6 +40,7 @@ You can use all the features in instagram with this php library. The person who
 wrote the software is not responsible for the operations to be performed with
 this software. A person who uses the Software for malicious purposes will be
 disabled indefinitely.
+
 <!-- GETTING STARTED -->
 
 ## Getting Started
