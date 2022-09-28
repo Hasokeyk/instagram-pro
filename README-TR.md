@@ -20,7 +20,7 @@
     ·
     <a href="https://github.com/hasokeyk/instagram-pro/issues">Feedback</a>
     <br>
-    <a href="https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md" style="font-size:24px">Türkçe doküman için tıklayın</a>
+    <a href="[https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md](https://github.com/Hasokeyk/instagram-pro/blob/main/README.md)" style="font-size:24px">Click for English document</a>
 </p>
 
 # Hasan Yüksektepe
@@ -34,7 +34,7 @@
 
 # Lisans Satın Alın
 
-Aylık veya yıllık lisans almak için lütfen <a href="mailto:instagram-pro@hayatikodla.net">instagram-pro@hayatikodla.net</a> iletişime geçin.
+Aylık veya yıllık lisans almak için lütfen <a href="mailto:instagram-pro@hayatikodla.net">instagram-pro@hayatikodla.net</a> adresi ile iletişime geçin.
 
 ## Proje Hakkında
 
@@ -47,8 +47,7 @@ Lütfen dikkatlice okuyunuz.
 
 ### Gereksinimler
 
-- Bilgisayarınızda "besteci" uygulamasına sahip olmalısınız. İçin
-  kurulum https://getcomposer.org/download/
+- Bilgisayarınızda "composer" uygulamasına sahip olmalısınız. Kurulum için https://getcomposer.org/download/ adresini ziyaret edebilirsiniz.
 - PHP 7.4 veya üzeri
 
 ### Dosya izinleri
@@ -59,7 +58,7 @@ Aşağıdaki dosya ve klasörlere chmod 777 ile izin verin.
 
 ## Composer ile kurulum
 
-* Çalışma klasörünüzü belirledikten sonra o klasörde terminal açıp aşağıdaki komutu yazıp entere basın.
+* Çalışma klasörünüzü belirledikten sonra o klasörü bir terminalde açıp aşağıdaki komutu yazın. Daha sonra entere basın.
   ```sh
   composer require hasokeyk/instagram
   ```
