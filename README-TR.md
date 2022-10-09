@@ -36,6 +36,10 @@
 
 Aylık veya yıllık lisans almak için lütfen <a href="mailto:instagram-pro@hayatikodla.net">instagram-pro@hayatikodla.net</a> iletişime geçin.
 
+# Discord
+
+<a href="https://discord.gg/3GgvMWQ33U"> https://discord.gg/3GgvMWQ33U </a>
+
 ## Proje Hakkında
 
 Bu php kütüphanesi ile instagramdaki tüm özellikleri kullanabilirsiniz. Bu yazılım ile yapılacak işlemlerden yazılımı yazan kişi sorumlu değildir. Yazılımı kötü amaçlarla kullanan bir kişi süresiz olarak devre dışı bırakılır.

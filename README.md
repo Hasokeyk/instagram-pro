@@ -32,7 +32,12 @@
 # Buy License
 
 To obtain a monthly or annual
-license <a href="https://t.me/hasokeyk"> https://t.me/hasokeyk </a> please contact with.
+license <a href="https://t.me/hasokeyk"> https://t.me/hasokeyk </a> please
+contact with.
+
+# Discord
+
+<a href="https://discord.gg/3GgvMWQ33U"> https://discord.gg/3GgvMWQ33U </a>
 
 ## About Project
 
