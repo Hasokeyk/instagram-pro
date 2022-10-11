@@ -20,6 +20,10 @@
     <a href="https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md" style="font-size:24px">Türkçe doküman için tıklayın</a>
 </p>
 
+<p align="center">
+    <a href="https://github.com/Hasokeyk/instagram-pro/wiki" style="font-size:24px">CLICK FOR CODE SAMPLES</a>
+</p>
+
 # Hasan Yüksektepe
 
 [![Linkedin Badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hasan-yuksektepe/)

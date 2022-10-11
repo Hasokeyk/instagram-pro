@@ -20,7 +20,11 @@
     ·
     <a href="https://github.com/hasokeyk/instagram-pro/issues">Feedback</a>
     <br>
-    <a href="https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md" style="font-size:24px">Türkçe doküman için tıklayın</a>
+    <a href="https://github.com/Hasokeyk/instagram-pro/blob/main/README-TR.md" style="font-size:24px">Click for English document</a>
+</p>
+
+<p align="center">
+    <a href="https://github.com/Hasokeyk/instagram-pro/wiki" style="font-size:24px">😎😎 KOD ÖRNEKLERİ İÇİN TIKLAYIN😎😎</a>
 </p>
 
 # Hasan Yüksektepe
@@ -51,7 +55,7 @@ Lütfen dikkatlice okuyunuz.
 
 ### Gereksinimler
 
-- Bilgisayarınızda "besteci" uygulamasına sahip olmalısınız. İçin
+- Bilgisayarınızda "composer" uygulamasına sahip olmalısınız. İçin
   kurulum https://getcomposer.org/download/
 - PHP 7.4 veya üzeri
 
